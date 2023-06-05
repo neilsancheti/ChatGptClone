@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind" : "npx tailwindcss -i ./static/input.css -o ./static/css/ut.css -o ./static/css/main.css --watch "
+    "tailwind": "npx tailwindcss -i ./static/input.css -o ./static/css/ut.css -o ./static/css/main.css --watch "
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^18.2.0",
     "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.8"
   }
 }
